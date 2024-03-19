@@ -1,0 +1,12 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void)
+{
+    system("title for 문으로 알파벳 대문자 출력");
+    int i;
+    printf("알파벳 대문자가 출력됩니다.\n");
+    for(i=65; i <= 90; i++)
+        printf("%c", i);
+    return 0;
+}
