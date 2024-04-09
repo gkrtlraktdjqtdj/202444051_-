@@ -1,0 +1,17 @@
+#include <stdio.h> int main()
+{
+    int cm, kg;
+    printf("키(cm)와 몸무게(kg)를 입력해주세요.");
+    scanf("%d %d",cm,kg);
+    float BMI = kg/(cm*cm/10000);
+    printf("BMI측정 결과는 %.1f이고 ", BMI);
+    if(BMI<=18.5)
+        printf("당신은 저체중입니다.\n");
+    else if(BMI>18.5 && BMI<23)
+        printf("당신은 정상 체중입니다.\n");
+    else if(BMI>=23 && BMI<25)
+        printf("당신은 과체중입니다.\n");
+    else if
+        printf("당신은 비만입니다.\n");
+    return 0;
+}
