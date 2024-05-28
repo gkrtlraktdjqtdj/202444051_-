@@ -7,7 +7,7 @@ int main(void)
     pi = &a;
     printf("pi의 주소 : %d\n",pi);
     printf("*pi++ = %d\n",*pi++);
-    printf("*pi++ after p의 주소 : %d\n",pi);
+    printf("*pi++ after pi의 주소 : %d\n",pi);
     printf("(*pi)++ =%d\n",(*pi)++);
     printf("*pi = %d\n",*pi);
 
